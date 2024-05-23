@@ -7,14 +7,16 @@ import {
 } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
 import HomePage from "./pages/HomePage";
-import JobPage from "./pages/JobPage";
+import JobsPage from "./pages/JobsPage";
+import JobPage from "./pages/jobPage";
 import NotFoundPage from "./pages/NotFoundPage";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<MainLayout />}>
       <Route index element={<HomePage />} />
-      <Route path="/jobs" element={<JobPage />} />
+      <Route path="/jobs" element={<JobsPage />} />
+      <Route path="/jobs/:id" element={<JobPage />} />
       <Route path="*" element={<NotFoundPage />} />
     </Route>
   )

@@ -4,15 +4,14 @@ import JobCard from "./JobCard";
 import Spinner from "./Spinner";
 
 const JobList = ({ isHome = false }) => {
-  // const jobListing = isHome ? jobs.slice(0, 3) : jobs;
-
   const [jobs, setJobs] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const fetchJobs = async () => {
+      const aoiUrl = isHome ? "/api/jobs?_limit=3" : "/api/jobs";
       try {
-        const res = await fetch("http://localhost:8000/jobs");
+        const res = await fetch(aoiUrl);
         const data = await res.json();
         setJobs(data);
       } catch (error) {
