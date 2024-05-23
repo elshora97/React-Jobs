@@ -97,20 +97,6 @@
         "contactEmail": "kisehu@mailinator.com",
         "contactPhone": "+1 (961) 968-9482"
       }
-    },
-    {
-      "id": "0354",
-      "type": "Internship",
-      "title": "Eius nostrud volupta",
-      "description": "Esse et consequatur",
-      "salary": "$80K - 90K",
-      "location": "Dolorem unde ut vel ",
-      "company": {
-        "name": "Rogers and Bright Associates",
-        "description": "Aut eu enim natus so",
-        "contactEmail": "botecimik@mailinator.com",
-        "contactPhone": "+1 (352) 379-1548"
-      }
     }
   ]
 }
