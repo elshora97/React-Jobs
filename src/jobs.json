@@ -83,6 +83,34 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "id": "ef08",
+      "type": "Part-Time",
+      "title": "Eum quo porro qui nu",
+      "description": "Cillum amet velit a",
+      "salary": "$80K - 90K",
+      "location": "Laborum id consequat",
+      "company": {
+        "name": "Faulkner and Taylor LLC",
+        "description": "Autem eligendi duis ",
+        "contactEmail": "kisehu@mailinator.com",
+        "contactPhone": "+1 (961) 968-9482"
+      }
+    },
+    {
+      "id": "0354",
+      "type": "Internship",
+      "title": "Eius nostrud volupta",
+      "description": "Esse et consequatur",
+      "salary": "$80K - 90K",
+      "location": "Dolorem unde ut vel ",
+      "company": {
+        "name": "Rogers and Bright Associates",
+        "description": "Aut eu enim natus so",
+        "contactEmail": "botecimik@mailinator.com",
+        "contactPhone": "+1 (352) 379-1548"
+      }
     }
   ]
 }
