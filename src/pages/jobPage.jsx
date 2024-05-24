@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLoaderData, useNavigate, useParams } from "react-router-dom";
-import Spinner from "../components/Spinner";
 import { FaArrowLeft, FaMapMarker } from "react-icons/fa";
+import { toast } from "react-toastify";
 
 const jobPage = () => {
   const navigate = useNavigate();
@@ -16,6 +16,7 @@ const jobPage = () => {
       const res = await fetch(`/api/jobs/${jobId}`, {
         method: "DELETE",
       });
+      toast.error("Job deleted", { theme: "dark" });
     }
     navigate("/jobs");
   };
