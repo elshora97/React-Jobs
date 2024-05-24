@@ -83,20 +83,6 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
-    },
-    {
-      "id": "f59f",
-      "type": "Full-Time",
-      "title": "Aut illo dignissimos",
-      "description": "Voluptate rem quo vo",
-      "salary": "$50K - 60K",
-      "location": "Ut distinctio Unde ",
-      "company": {
-        "name": "Rush Joyce Inc",
-        "description": "Est voluptatem iust",
-        "contactEmail": "veqo@mailinator.com",
-        "contactPhone": "+1 (694) 862-4515"
-      }
     }
   ]
 }
